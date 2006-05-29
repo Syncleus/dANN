@@ -1,0 +1,28 @@
+[submodule "projects/java_dann"]
+    path = projects/java_dann
+    url = git://git.syncleus.com/dANN-core.git
+[submodule "projects/java_dann_examples"]
+    path = projects/java_dann_examples
+    url = git://git.syncleus.com/dANN-examples.git
+[submodule "projects/c_dann_library"]
+    path = projects/c_dann_library
+    url = git://git.syncleus.com/dANN-C.git
+[submodule "projects/cs_dann_library"]
+    path = projects/cs_dann_library
+    url = git://git.syncleus.com/dANN-CS.git
+[submodule "projects/dann_jni"]
+    path = projects/dann_jni
+    url = git://git.syncleus.com/dANN-C-JNI.git
+[submodule "projects/dannalyzer"]
+    path = projects/dannalyzer
+    url = git://git.syncleus.com/dANNALYZER.git
+[submodule "projects/jung_dann"]
+    path = projects/jung_dann
+    url = git://git.syncleus.com/dANN-jung.git
+[submodule "projects/neuroph_dann"]
+    path = projects/neuroph_dann
+    url = git://git.syncleus.com/dANN-neuroph.git
+[submodule "projects/rdf_dann"]
+    path = projects/rdf_dann
+    url = git://git.syncleus.com/dANN-rdf.git
+
