@@ -35,6 +35,8 @@ else
 	exit 1
 fi
 
+echo ""
+
 
 #pull the arguments
 if [ $# -lt 3 ]
@@ -62,6 +64,7 @@ fi
 if [ $# -lt 1 ]
 then
 	echo "usage: $0 <output dir> [revision] [tags|branches] [tag/branch name]"
+	echo "       $0 <output dir> [revision] [tag name]"
 	exit 1
 else
 	OUT_DIR=$1
