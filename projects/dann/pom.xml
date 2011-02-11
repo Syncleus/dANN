@@ -4,6 +4,13 @@
 
 	<properties>
 		<dann.version>2.0-SNAPSHOT</dann.version>
+		<!--
+			This may get better support in Maven 3, see:
+			http://docs.codehaus.org/display/MAVENUSER/POM+Element+for+Source+File+Encoding
+		-->
+		<project.build.encoding>UTF-8</project.build.encoding>
+		<project.build.sourceEncoding>${project.build.encoding}</project.build.sourceEncoding>
+		<project.build.resourceEncoding>${project.build.encoding}</project.build.resourceEncoding>
 	</properties>
 
 	<modelVersion>4.0.0</modelVersion>
@@ -66,6 +73,9 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jxr-plugin</artifactId>
 				<version>2.2</version>
+				<configuration>
+					<sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
+				</configuration>
 			</plugin>
 
 			<plugin>
@@ -74,6 +84,7 @@
 				<version>2.5</version>
 				<configuration>
 					<configLocation>${basedir}/src/main/resources/checks.xml</configLocation>
+					<sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
 				</configuration>
 			</plugin>
 
@@ -83,7 +94,7 @@
 				<version>2.5</version>
 				<configuration>
 					<linkXref>true</linkXref>
-					<sourceEncoding>utf-8</sourceEncoding>
+					<sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
 					<minimumTokens>100</minimumTokens>
 					<targetJdk>1.5</targetJdk>
 					<rulesets>
@@ -108,6 +119,10 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>2.4</version>
+				<configuration>
+					<charset>${project.build.sourceEncoding}</charset>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
 			</plugin>
 
 		</plugins>
@@ -125,6 +140,7 @@
 				<configuration>
 					<source>1.5</source>
 					<target>1.5</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
 			</plugin>
 
@@ -132,7 +148,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
 				<configuration>
-					<encoding>UTF-8</encoding>
+					<encoding>${project.build.resourceEncoding}</encoding>
 				</configuration>
 			</plugin>
 
