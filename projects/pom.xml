@@ -14,7 +14,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>syncleus.com</groupId>
-	<artifactId>all-projects</artifactId>
+	<artifactId>dann-all</artifactId>
 	<packaging>pom</packaging>
 	<version>2.0-SNAPSHOT</version>
 
