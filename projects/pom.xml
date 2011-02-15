@@ -12,6 +12,13 @@
 	<url>http://wiki.syncleus.com/index.php/DANN</url>
 	<inceptionYear>2000</inceptionYear>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>http://ezekiel2.syncleus.com/archiva/repository/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<modules>
 		<module>java_dann</module>
 		<module>java_dann_examples</module>
