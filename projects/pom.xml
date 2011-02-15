@@ -2,6 +2,18 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+
+	<properties>
+		<dann.version>2.0-SNAPSHOT</dann.version>
+		<!--
+			This may get better support in Maven 3, see:
+			http://docs.codehaus.org/display/MAVENUSER/POM+Element+for+Source+File+Encoding
+		-->
+		<project.build.encoding>UTF-8</project.build.encoding>
+		<project.build.sourceEncoding>${project.build.encoding}</project.build.sourceEncoding>
+		<project.build.resourceEncoding>${project.build.encoding}</project.build.resourceEncoding>
+	</properties>
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>syncleus.com</groupId>
 	<artifactId>dann</artifactId>
