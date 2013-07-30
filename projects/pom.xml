@@ -15,14 +15,14 @@
 	</properties>
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>syncleus.com</groupId>
+	<groupId>com.syncleus</groupId>
 	<artifactId>dann</artifactId>
 	<packaging>pom</packaging>
 	<version>2.0-SNAPSHOT</version>
 	<name>dANN</name>
 	<description>Artificial Intelligence and Artificial Genetics library</description>
 	<url>http://wiki.syncleus.com/index.php/DANN</url>
-	<inceptionYear>2000</inceptionYear>
+	<inceptionYear>2002</inceptionYear>
 
 	<distributionManagement>
 		<snapshotRepository>
@@ -74,8 +74,8 @@
 	</licenses>
 
 	<issueManagement>
-		<system>Trac</system>
-		<url>http://bugs.syncleus.com/trac.cgi/dANN/</url>
+		<system>Mantis</system>
+		<url>http://bugs.syncleus.com/</url>
 	</issueManagement>
 
 	<scm>
