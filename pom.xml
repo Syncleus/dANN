@@ -57,8 +57,8 @@
     </licenses>
 
     <issueManagement>
-        <system>Mantis</system>
-        <url>http://bugs.syncleus.com/</url>
+        <system>JIRA</system>
+        <url>http://bugs.syncleus.com/browse/DANN/</url>
     </issueManagement>
 
     <scm>
