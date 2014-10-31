@@ -95,7 +95,7 @@
                 <role>Project Owner</role>
                 <role>Developer</role>
             </roles>
-            <timezone>-4</timezone>
+            <timezone>-5</timezone>
             <properties>
                 <picUrl>http://2.gravatar.com/avatar/4b0fd9df484be9a8546055550f162a68</picUrl>
             </properties>
@@ -109,7 +109,7 @@
                 <role>Developer</role>
                 <role>Tester</role>
             </roles>
-            <timezone>-4</timezone>
+            <timezone>-5</timezone>
         </contributor>
     </contributors>
 
