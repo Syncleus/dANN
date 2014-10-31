@@ -24,6 +24,11 @@
         <module>java_dann_examples</module>
     </modules>
 
+    <ciManagement>
+        <system>jenkins</system>
+        <url>http://builds.syncleus.com/</url>
+    </ciManagement>
+
     <mailingLists>
         <mailingList>
             <name>Syncleus Announcements</name>
