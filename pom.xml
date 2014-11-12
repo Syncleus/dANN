@@ -123,21 +123,6 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <repositories>
-        <repository>
-            <id>maven2-repository.dev.java.net</id>
-            <name>Java.net Repository for Maven</name>
-            <url>http://download.java.net/maven/2/</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>maven2-repository.dev.java.net</id>
-            <url>http://download.java.net/maven/2</url>
-        </pluginRepository>
-    </pluginRepositories>
-
     <build>
         <defaultGoal>package</defaultGoal>
 
@@ -261,7 +246,7 @@
             <dependency>
                 <groupId>org.freehep</groupId>
                 <artifactId>freehep-java3d</artifactId>
-                <version>2.0-SNAPSHOT</version>
+                <version>2.0</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
