@@ -1,8 +1,4 @@
 [submodule "java_dann"]
-	path = java_dann
+    path = java_dann
     url = http://gerrit.syncleus.com/dANN-core
-    branch = master
-[submodule "java_dann_examples"]
-	path = java_dann_examples
-    url = http://gerrit.syncleus.com/dANN-examples
     branch = master

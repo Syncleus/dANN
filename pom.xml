@@ -6,7 +6,7 @@
     <groupId>com.syncleus.dann</groupId>
     <artifactId>dann</artifactId>
     <packaging>pom</packaging>
-    <version>2.0-SNAPSHOT</version>
+    <version>3.0-SNAPSHOT</version>
     <name>dANN</name>
     <description>Artificial Intelligence and Artificial Genetics library</description>
     <url>http://wiki.syncleus.com/index.php/DANN</url>
@@ -25,7 +25,6 @@
 
     <modules>
         <module>java_dann</module>
-        <module>java_dann_examples</module>
     </modules>
 
     <ciManagement>
