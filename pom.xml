@@ -18,7 +18,7 @@
 
     <properties>
         <project.build.encoding>UTF-8</project.build.encoding>
-        <project.build.sourceEncoding>UTF-8}</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     </properties>
