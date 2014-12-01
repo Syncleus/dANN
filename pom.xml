@@ -41,10 +41,6 @@
         <project.build.resourceEncoding>${project.build.encoding}</project.build.resourceEncoding>
     </properties>
 
-    <modules>
-        <module>java_dann</module>
-    </modules>
-
     <ciManagement>
         <system>jenkins</system>
         <url>http://builds.syncleus.com/</url>
