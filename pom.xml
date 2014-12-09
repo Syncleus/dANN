@@ -125,14 +125,12 @@
 
     <distributionManagement>
         <repository>
-            <id>syncleus.releases</id>
-            <name>Release Repository</name>
-            <url>http://repo.syncleus.com/repository/releases/</url>
+            <id>ossrh.releases</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
         <snapshotRepository>
-            <id>syncleus.snapshots</id>
-            <name>Snapshot Repository</name>
-            <url>http://repo.syncleus.com/repository/snapshots/</url>
+            <id>ossrh.snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
